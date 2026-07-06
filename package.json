@@ -1,0 +1,14 @@
+{
+  "name": "metnav-backend",
+  "version": "1.0.0",
+  "scripts": {
+    "deploy": "wrangler d1 migrations apply metnav-db --remote && wrangler deploy",
+    "dev": "wrangler dev src/index.js"
+  },
+  "dependencies": {
+    "hono": "^4.6.0"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}

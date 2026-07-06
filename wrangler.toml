@@ -1,0 +1,12 @@
+name = "metnav-backend"
+compatibility_date = "2024-12-18"
+main = "src/index.js"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "metnav-db"
+database_id = "8a2c6eaa-b523-4a6a-898b-eaad8061b995"
+
+[[migrations]]
+tag = "v1"
+directory = "./migrations"
